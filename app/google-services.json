@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "72113809034",
+    "firebase_url": "https://tez-deneme-24af7.firebaseio.com",
+    "project_id": "tez-deneme-24af7",
+    "storage_bucket": "tez-deneme-24af7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72113809034:android:3dcf3be12b1ebdc5",
+        "android_client_info": {
+          "package_name": "com.example.niyaz.firebasedeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72113809034-g0q10q0522pqgq01oe7mcd1nmhteu4uf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.niyaz.firebasedeneme",
+            "certificate_hash": "8dbb4f3599eaa3d92f126107342de29d8b1ff9b5"
+          }
+        },
+        {
+          "client_id": "72113809034-8gag06a7som87kheme270q87o9t8f7cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW6dj3YUP7TWlg5emSBz9Mltr1XHo7_VU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72113809034-8gag06a7som87kheme270q87o9t8f7cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">72113809034-8gag06a7som87kheme270q87o9t8f7cr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tez-deneme-24af7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">72113809034</string>
+    <string name="google_api_key" translatable="false">AIzaSyDW6dj3YUP7TWlg5emSBz9Mltr1XHo7_VU</string>
+    <string name="google_app_id" translatable="false">1:72113809034:android:3dcf3be12b1ebdc5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDW6dj3YUP7TWlg5emSBz9Mltr1XHo7_VU</string>
+    <string name="google_storage_bucket" translatable="false">tez-deneme-24af7.appspot.com</string>
+    <string name="project_id" translatable="false">tez-deneme-24af7</string>
+</resources>
