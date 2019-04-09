@@ -950,6 +950,7 @@ id all
 id always
 id async
 id asýtarihiTxt
+id asýtarihiTxt3
 id auto
 id barrier
 id beginning
@@ -971,7 +972,9 @@ id chains
 id checkbox
 id chronometer
 id cinsTxt
+id cinsTxt3
 id cinsiyetTxt
+id cinsiyetTxt3
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1009,7 +1012,9 @@ id invisible
 id italic
 id köpekResmi
 id küpenoTxt
+id küpenoTxt3
 id kýsýrlasmatarihiTxt
+id kýsýrlasmatarihiTxt3
 id left
 id light
 id line1
@@ -1065,6 +1070,7 @@ id progress_horizontal
 id radio
 id registerBtn
 id renkTxt
+id renkTxt3
 id right
 id right_icon
 id right_side

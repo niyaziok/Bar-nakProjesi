@@ -232,12 +232,12 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mr_button_connected_light.xml.flat",
-        "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable\\mr_button_connected_light.xml"
-    },
-    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bilgi.xml.flat",
         "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\layout\\fragment_bilgi.xml"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mr_button_connected_light.xml.flat",
+        "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable\\mr_button_connected_light.xml"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_22_dark.png.flat",

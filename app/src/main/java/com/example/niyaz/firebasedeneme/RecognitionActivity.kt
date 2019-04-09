@@ -6,7 +6,6 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.provider.MediaStore
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -22,24 +21,26 @@ import com.google.firebase.ml.vision.text.FirebaseVisionText
 class RecognitionActivity : AppCompatActivity() {
 
     private var fotoBtn: Button? = null
-    private var tanımaBtn: Button? = null
-    private var küperesmi: ImageView? = null
+    private var tanimaBtn: Button? = null
+    private var kuperesmi: ImageView? = null
     private var bilgi: TextView? = null
     private var imageBitmap: Bitmap? = null
 
-    var asdasd=KopekBilgileri()
+    var kopek = KopekBilgileri()
+    var kopekbilgi = BilgiFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recognition)
+
         fotoBtn = findViewById(R.id.ftgrafcekBtn)
-        tanımaBtn = findViewById(R.id.tanıBtn)
-        küperesmi = findViewById(R.id.köpekResmi)
+        tanimaBtn = findViewById(R.id.tanıBtn)
+        kuperesmi = findViewById(R.id.köpekResmi)
         bilgi = findViewById(R.id.bilgiText)
 
-
         fotoBtn!!.setOnClickListener { dispatchTakePictureIntent() }
-        tanımaBtn!!.setOnClickListener { detectTxt() }
+        tanimaBtn!!.setOnClickListener { detectTxt() }
+
     }
 
     private fun dispatchTakePictureIntent() {
@@ -53,8 +54,12 @@ class RecognitionActivity : AppCompatActivity() {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
             val extras = data.extras
             imageBitmap = extras!!.get("data") as Bitmap
-            küperesmi!!.setImageBitmap(imageBitmap)
+            kuperesmi!!.setImageBitmap(imageBitmap)
         }
+    }
+
+    private fun showFragment(){
+        kopekbilgi.show(supportFragmentManager, "Kopek Bilgileri")
     }
 
     private fun detectTxt() {
@@ -75,28 +80,45 @@ class RecognitionActivity : AppCompatActivity() {
             bilgi!!.textSize = 24f
             bilgi!!.text = txt
 
-            var köpekbilgigöster = BilgiFragment()
-            köpekbilgigöster.show(supportFragmentManager,"Hello")
 
-            //
-            var information= FirebaseDatabase.getInstance().reference
-            var check=information.child("köpek").orderByKey().equalTo(txt)
-            check.addListenerForSingleValueEvent(object : ValueEventListener {
-                override fun onDataChange(p0: DataSnapshot) {
-                    Log.e("Hata","HATA BURADA")
-                    for(singleSnapShot in p0.children){
-                        var okunanküpe = singleSnapShot.getValue(KopekBilgileri::class.java)
+
+            val information = FirebaseDatabase.getInstance().reference
+            val check=information.child("köpek").orderByKey().equalTo(txt)
+
+                check.addListenerForSingleValueEvent(object : ValueEventListener {
+                    override fun onDataChange(p0: DataSnapshot) {
+
+                        if (p0.hasChildren()) {
+
+                            for (singleSnapShot in p0.children) {
+                                val okunankupe = singleSnapShot.getValue(KopekBilgileri::class.java)
+
+                                kopekbilgi.kupeno?.text = okunankupe?.kupe_no.toString()
+                                kopekbilgi.cins?.text = okunankupe?.cins
+                                kopekbilgi.cinsiyet?.text = okunankupe?.cinsiyet
+                                kopekbilgi.renk?.text = okunankupe?.renk
+                                kopekbilgi.kisirlastirmatar?.text = okunankupe?.kisirlastirma_tarihi
+                                kopekbilgi.asitar?.text = okunankupe?.asi_tarihi
+
+                            }
+
+                            showFragment()
+
+                        }
+                        else{
+                            Toast.makeText(this@RecognitionActivity, "Köpek Sisteme Kayıtlı Değil", Toast.LENGTH_LONG).show()
+                        }
+                    }
+
+                    override fun onCancelled(p0: DatabaseError) {
 
                     }
-                }
 
-                override fun onCancelled(p0: DatabaseError) {
+                })
 
-                }
-
-            })
 
         }
+
     }
 
     companion object {
