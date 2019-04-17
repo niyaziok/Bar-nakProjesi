@@ -1,5 +1,8 @@
 package com.example.niyaz.firebasedeneme
-class KopekBilgileri {
+
+import android.support.v7.app.AppCompatActivity
+
+class KopekBilgileri : AppCompatActivity {
 
     var kupe_no: Int? = null
     var cins: String? = null

@@ -1,14 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\ace2efadb6fe28115bed79b4afac9a53\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c5aea3ae04eb3ee586888a600bad18c4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:15:1-36:12
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-ml-vision:19.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-19.0.2.aar\d1d32ff56da5d4d1e2133a51538cf5d0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\efd3fa906995b5c2b8afb1fa8dee0d6b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\3e6b2c778f360a7fcbc327a92554f9ef\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-17.0.2.aar\76b40c712c85a38b6001d6ba24794d1e\AndroidManifest.xml:2:1-9:12
@@ -53,20 +55,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\niyaz\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\401eaeeef73aee79652843fca0a22b9b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4b5cb271b706905c0ca19b533f8f0c3b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2fb93ffc53e9cd7535ce5776b70abcc4\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:3:11-53
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:2:11-69
@@ -76,12 +78,40 @@ ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\Andr
 		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:7:13-36
 	android:name
 		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:6:13-51
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:9:5-66
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7ac1ab312b2eb1294919fc69a02be866\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7ac1ab312b2eb1294919fc69a02be866\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5c5a71112fd0f37b37a9d64b856301b1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5c5a71112fd0f37b37a9d64b856301b1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\df129864f0b6adf973b6e4f588168b67\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\df129864f0b6adf973b6e4f588168b67\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:9:5-31:19
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:11:5-35:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\efd3fa906995b5c2b8afb1fa8dee0d6b\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\efd3fa906995b5c2b8afb1fa8dee0d6b\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\3e6b2c778f360a7fcbc327a92554f9ef\AndroidManifest.xml:7:5-20
@@ -131,47 +161,51 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\niya
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4ac7d2c94edfb79620bc813e3baa2357\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4ac7d2c94edfb79620bc813e3baa2357\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:14:13-39
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:14:13-43
 	android:roundIcon
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:13:13-58
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:15:13-58
 	android:icon
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:11:13-47
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:13:13-47
 	android:allowBackup
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:10:13-39
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:15:13-44
-activity#com.example.niyaz.firebasedeneme.KopekBilgileri
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:16:9-17:20
-	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:16:19-49
-activity#com.example.niyaz.firebasedeneme.RecognitionActivity
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:17:13-44
+activity#com.example.niyaz.firebasedeneme.ProblemActivity
 ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:18:9-19:20
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:18:19-54
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:18:19-50
+activity#com.example.niyaz.firebasedeneme.KopekBilgileri
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:20:9-21:20
+	android:name
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:20:19-49
+activity#com.example.niyaz.firebasedeneme.RecognitionActivity
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:22:9-23:20
+	android:name
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:22:19-54
 activity#com.example.niyaz.firebasedeneme.LoginActivity
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:20:19-48
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:24:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:22:17-68
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:26:17-68
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:24:17-76
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.niyaz.firebasedeneme.RegisterActivity
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:27:9-28:20
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:31:9-32:20
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:31:19-51
 activity#com.example.niyaz.firebasedeneme.MainActivity
-ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:29:9-30:20
+ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:33:9-34:20
 	android:name
-		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml:33:19-47
 uses-sdk
 INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
@@ -186,6 +220,10 @@ MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-ml-vision:19.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-19.0.2.aar\d1d32ff56da5d4d1e2133a51538cf5d0\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-ml-vision:19.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-ml-vision-19.0.2.aar\d1d32ff56da5d4d1e2133a51538cf5d0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\efd3fa906995b5c2b8afb1fa8dee0d6b\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-17.0.2.aar\efd3fa906995b5c2b8afb1fa8dee0d6b\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-vision-image-label-17.0.2.aar\3e6b2c778f360a7fcbc327a92554f9ef\AndroidManifest.xml:5:5-44
@@ -286,6 +324,10 @@ INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\A
 		INJECTED from C:\Users\niyaz\AndroidStudioProjects\FireBaseDeneme\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:22:5-79
@@ -298,24 +340,12 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\df129864f0b6adf973b6e4f588168b67\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:25:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7ac1ab312b2eb1294919fc69a02be866\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7ac1ab312b2eb1294919fc69a02be866\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5c5a71112fd0f37b37a9d64b856301b1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\5c5a71112fd0f37b37a9d64b856301b1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\df129864f0b6adf973b6e4f588168b67\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\df129864f0b6adf973b6e4f588168b67\AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:26:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\759839a768499fa5f759dc34dece6756\AndroidManifest.xml:29:9-33:19
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:29:9-35:19
@@ -352,6 +382,24 @@ ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\cac
 		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\aea13d0c136be5c0b4c1cc865e6e62db\AndroidManifest.xml:37:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\ad2ddd1371dc8d4ae70c195d741af3d6\AndroidManifest.xml:34:13-50
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\14ed119da7740eacc960f6110b3c14bc\AndroidManifest.xml:32:17-107
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\ee8f27951f82136f3de84ae06070c27f\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\niyaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\41debb1c2d61c10a102695fd27f000d2\AndroidManifest.xml:24:5-68

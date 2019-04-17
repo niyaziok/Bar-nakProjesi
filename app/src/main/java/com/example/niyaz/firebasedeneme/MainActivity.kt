@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
             val Bintent = Intent(this, RecognitionActivity::class.java)
             startActivity(Bintent)
 
+        }
+
+        problemBtn.setOnClickListener {
+
+            val Sintent = Intent(this, ProblemActivity::class.java)
+            startActivity(Sintent)
 
         }
     }

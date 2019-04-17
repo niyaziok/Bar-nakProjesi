@@ -29,6 +29,8 @@ class RecognitionActivity : AppCompatActivity() {
     var kopek = KopekBilgileri()
     var kopekbilgi = BilgiFragment()
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recognition)
@@ -38,12 +40,12 @@ class RecognitionActivity : AppCompatActivity() {
         kuperesmi = findViewById(R.id.köpekResmi)
         bilgi = findViewById(R.id.bilgiText)
 
-        fotoBtn!!.setOnClickListener { dispatchTakePictureIntent() }
+        fotoBtn!!.setOnClickListener { takedogPicture() }
         tanimaBtn!!.setOnClickListener { detectTxt() }
 
     }
 
-    private fun dispatchTakePictureIntent() {
+    private fun takedogPicture() {
         val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         if (takePictureIntent.resolveActivity(packageManager) != null) {
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
@@ -60,6 +62,7 @@ class RecognitionActivity : AppCompatActivity() {
 
     private fun showFragment(){
         kopekbilgi.show(supportFragmentManager, "Kopek Bilgileri")
+
     }
 
     private fun detectTxt() {
@@ -72,7 +75,7 @@ class RecognitionActivity : AppCompatActivity() {
     private fun processTxt(text: FirebaseVisionText) {
         val blocks = text.textBlocks
         if (blocks.size == 0) {
-            Toast.makeText(this@RecognitionActivity, "No Text :(", Toast.LENGTH_LONG).show()
+            Toast.makeText(this@RecognitionActivity, "Yazı Okunamadı :(", Toast.LENGTH_LONG).show()
             return
         }
         for (block in text.textBlocks) {
@@ -81,43 +84,41 @@ class RecognitionActivity : AppCompatActivity() {
             bilgi!!.text = txt
 
 
-
             val information = FirebaseDatabase.getInstance().reference
-            val check=information.child("köpek").orderByKey().equalTo(txt)
+            val check = information.child("köpek").orderByKey().equalTo(txt)
 
-                check.addListenerForSingleValueEvent(object : ValueEventListener {
-                    override fun onDataChange(p0: DataSnapshot) {
+            check.addListenerForSingleValueEvent(object : ValueEventListener {
+                override fun onDataChange(p0: DataSnapshot) {
 
-                        if (p0.hasChildren()) {
+                    if (p0.hasChildren()) {
+                        for (singleSnapShot in p0.children) {
+                            val okunankupe = singleSnapShot.getValue(KopekBilgileri::class.java)
 
-                            for (singleSnapShot in p0.children) {
-                                val okunankupe = singleSnapShot.getValue(KopekBilgileri::class.java)
-
-                                kopekbilgi.kupeno?.text = okunankupe?.kupe_no.toString()
-                                kopekbilgi.cins?.text = okunankupe?.cins
-                                kopekbilgi.cinsiyet?.text = okunankupe?.cinsiyet
-                                kopekbilgi.renk?.text = okunankupe?.renk
-                                kopekbilgi.kisirlastirmatar?.text = okunankupe?.kisirlastirma_tarihi
-                                kopekbilgi.asitar?.text = okunankupe?.asi_tarihi
-
-                            }
-
-                            showFragment()
+                            kopekbilgi.kupeno?.text = okunankupe?.kupe_no.toString()
+                            kopekbilgi.cins?.text = okunankupe?.cins
+                            kopekbilgi.cinsiyet?.text = okunankupe?.cinsiyet
+                            kopekbilgi.renk?.text = okunankupe?.renk
+                            kopekbilgi.kisirlastirmatar?.text = okunankupe?.kisirlastirma_tarihi
+                            kopekbilgi.asitar?.text = okunankupe?.asi_tarihi
 
                         }
-                        else{
-                            Toast.makeText(this@RecognitionActivity, "Köpek Sisteme Kayıtlı Değil", Toast.LENGTH_LONG).show()
-                        }
-                    }
 
-                    override fun onCancelled(p0: DatabaseError) {
+                    } else {
+                        Toast.makeText(this@RecognitionActivity, "Köpek Sisteme Kayıtlı Değil", Toast.LENGTH_SHORT).show()
 
                     }
+                }
 
-                })
+                override fun onCancelled(p0: DatabaseError) {
+
+                }
 
 
+            })
         }
+
+        showFragment()
+
 
     }
 

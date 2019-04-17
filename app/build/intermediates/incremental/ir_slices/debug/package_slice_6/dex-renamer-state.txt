@@ -1,0 +1,4 @@
+#Wed Apr 17 10:19:40 EET 2019
+base.0=C\:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

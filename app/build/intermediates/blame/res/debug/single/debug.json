@@ -32,6 +32,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2864ba2ac4edc6e1fbb48e55ad1db5cf\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_location.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-hdpi\\ic_location.png"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -264,10 +268,6 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\49ac9ccb1cb333a734db3cb115c9368a\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_kopek_bilgileri.xml.flat",
-        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\layout\\activity_kopek_bilgileri.xml"
-    },
-    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -290,6 +290,10 @@
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_photo.xml.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-anydpi\\ic_photo.xml"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_media_pause_light.png.flat",
@@ -688,6 +692,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable\\mr_media_pause_light.xml"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_photo.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-mdpi\\ic_photo.png"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -988,6 +996,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_location.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-mdpi\\ic_location.png"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_07_light.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_07_light.png"
     },
@@ -1068,6 +1080,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_10_dark.png"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_problem.xml.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\layout\\activity_problem.xml"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -1130,6 +1146,10 @@
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_media_play_light.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-hdpi-v4\\ic_media_play_light.png"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_location.xml.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-anydpi\\ic_location.xml"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_grey.png.flat",
@@ -1532,6 +1552,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_28_dark.png"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-xhdpi\\ic_location.png"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_vol_type_tv_dark.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xxhdpi-v4\\ic_vol_type_tv_dark.png"
     },
@@ -1866,6 +1890,10 @@
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_14_light.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_14_light.png"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photo.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-hdpi\\ic_photo.png"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2270,6 +2298,10 @@
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_28_light.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_28_light.png"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_location.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location.png"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -2800,6 +2832,10 @@
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photo.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photo.png"
+    },
+    {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_17_dark.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_17_dark.png"
     },
@@ -2982,6 +3018,10 @@
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_06_dark.png.flat",
         "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_06_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_photo.png.flat",
+        "source": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\src\\main\\res\\drawable-xhdpi\\ic_photo.png"
     },
     {
         "merged": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
