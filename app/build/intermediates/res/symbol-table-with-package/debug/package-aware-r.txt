@@ -52,7 +52,6 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
-attr ambientEnabled
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -83,13 +82,6 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-attr cameraBearing
-attr cameraMaxZoomPreference
-attr cameraMinZoomPreference
-attr cameraTargetLat
-attr cameraTargetLng
-attr cameraTilt
-attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -183,10 +175,6 @@ attr initialActivityCount
 attr isLightTheme
 attr itemPadding
 attr keylines
-attr latLngBoundsNorthEastLatitude
-attr latLngBoundsNorthEastLongitude
-attr latLngBoundsSouthWestLatitude
-attr latLngBoundsSouthWestLongitude
 attr layout
 attr layout_anchor
 attr layout_anchorGravity
@@ -255,10 +243,8 @@ attr listPreferredItemHeightLarge
 attr listPreferredItemHeightSmall
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
-attr liteMode
 attr logo
 attr logoDescription
-attr mapType
 attr maxButtonHeight
 attr measureWithLargestChild
 attr mediaRouteAudioTrackDrawable
@@ -368,15 +354,6 @@ attr tooltipText
 attr track
 attr trackTint
 attr trackTintMode
-attr uiCompass
-attr uiMapToolbar
-attr uiRotateGestures
-attr uiScrollGestures
-attr uiScrollGesturesDuringRotateOrZoom
-attr uiTiltGestures
-attr uiZoomControls
-attr uiZoomGestures
-attr useViewLifecycle
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -389,7 +366,6 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
-attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -1028,7 +1004,6 @@ id gone
 id groups
 id home
 id homeAsUp
-id hybrid
 id icon
 id icon_group
 id icon_only
@@ -1108,7 +1083,6 @@ id right
 id right_icon
 id right_side
 id sahiplenmeBtn
-id satellite
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1143,7 +1117,6 @@ id submit_area
 id tabMode
 id tag_transition_group
 id tanýBtn
-id terrain
 id text
 id text2
 id textSpacerNoButtons
@@ -1712,7 +1685,6 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MediaRouteButton android_minWidth android_minHeight externalRouteEnabledDrawable mediaRouteButtonTint
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
