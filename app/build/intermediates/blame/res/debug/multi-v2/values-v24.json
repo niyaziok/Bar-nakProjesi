@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d31f089e01c00d890c004ed38c885ba3\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\ec31aa592bd08f8f06279303e924560a\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\044adc560cb156cd11dee550344369c7\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

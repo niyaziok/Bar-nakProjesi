@@ -1,8 +1,6 @@
 package com.example.niyaz.firebasedeneme
 
-import android.support.v7.app.AppCompatActivity
-
-class KopekBilgileri : AppCompatActivity {
+class KopekBilgileri {
 
     var kupe_no: Int? = null
     var cins: String? = null
@@ -21,6 +19,6 @@ class KopekBilgileri : AppCompatActivity {
         this.asi_tarihi = asi_tarihi
     }
 
-    constructor(){}
+    constructor()
 
 }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d31f089e01c00d890c004ed38c885ba3\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

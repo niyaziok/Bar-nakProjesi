@@ -52,9 +52,9 @@ class RecognitionActivity : AppCompatActivity() {
         }
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
-            val extras = data.extras
+            val extras = data?.extras
             imageBitmap = extras!!.get("data") as Bitmap
             kuperesmi!!.setImageBitmap(imageBitmap)
         }
@@ -85,13 +85,14 @@ class RecognitionActivity : AppCompatActivity() {
 
 
             val information = FirebaseDatabase.getInstance().reference
-            val check = information.child("köpek").orderByKey().equalTo(txt)
+            val check = information.child("Kopek").orderByKey().equalTo(txt)
 
             check.addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(p0: DataSnapshot) {
 
                     if (p0.hasChildren()) {
                         for (singleSnapShot in p0.children) {
+
                             val okunankupe = singleSnapShot.getValue(KopekBilgileri::class.java)
 
                             kopekbilgi.kupeno?.text = okunankupe?.kupe_no.toString()

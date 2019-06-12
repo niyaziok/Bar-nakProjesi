@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\niyaz\\AndroidStudioProjects\\FireBaseDeneme\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\ace2efadb6fe28115bed79b4afac9a53\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-28.0.0.aar\\9bb61243ffb06e82cca134610cd51f0b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -13,21 +13,40 @@
                         "endOffsets": "125,203,278"
                     },
                     "to": {
-                        "startLines": "6,7,8",
+                        "startLines": "5,6,7",
                         "startColumns": "4,4,4",
-                        "startOffsets": "328,403,481",
+                        "startOffsets": "264,339,417",
                         "endColumns": "74,77,74",
-                        "endOffsets": "398,476,551"
+                        "endOffsets": "334,412,487"
                     }
                 },
                 {
-                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5aea3ae04eb3ee586888a600bad18c4\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\868e3cb41fb8cf4b5034a2a395f8704f\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "492",
+                        "endLines": "11",
+                        "endColumns": "10",
+                        "endOffsets": "659"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\niyaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d31f089e01c00d890c004ed38c885ba3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

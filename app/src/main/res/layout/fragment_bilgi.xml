@@ -5,11 +5,14 @@
         xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/activityColor"
         tools:context=".BilgiFragment">
 
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/kısırlasmatarihiTxt3"
             android:text="Kısırlaştırma Tarihi"
             android:textAlignment="center"
@@ -20,6 +23,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/asıtarihiTxt3"
             android:text="Aşı Tarihi"
             android:textAlignment="center"
@@ -30,6 +35,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/cinsiyetTxt3"
             android:text="Cinsiyet"
             android:textAlignment="center"
@@ -40,6 +47,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/renkTxt3"
             android:text="Renk"
             android:textAlignment="center"
@@ -50,6 +59,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/cinsTxt3"
             android:text="Cins"
             android:textAlignment="center"
@@ -60,6 +71,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/küpenoTxt3"
             android:text="Küpe Numarası"
             android:textAlignment="center"
@@ -70,6 +83,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/kısırlasmatarihiTxt"
             android:textAlignment="center"
             android:textSize="17sp"
@@ -81,6 +96,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/asıtarihiTxt"
             android:textAlignment="center"
             android:textSize="17sp"
@@ -90,6 +107,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/cinsiyetTxt"
             android:textAlignment="center"
             android:textSize="17sp"
@@ -99,6 +118,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/renkTxt"
             android:textAlignment="center"
             android:textSize="17sp"
@@ -109,6 +130,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/cinsTxt"
             android:textAlignment="center"
             android:textSize="17sp"
@@ -119,6 +142,8 @@
     <TextView
             android:layout_width="150dp"
             android:layout_height="50dp"
+            android:textColor="@color/btnColor"
+            android:textStyle="bold"
             android:id="@+id/küpenoTxt"
             android:textAlignment="center"
             android:textSize="17sp"

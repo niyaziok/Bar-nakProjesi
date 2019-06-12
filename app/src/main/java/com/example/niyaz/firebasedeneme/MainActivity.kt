@@ -24,5 +24,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Sintent)
 
         }
+
+        adminproblemBtn.setOnClickListener {
+            val Apintent = Intent (this, AdminProblem::class.java)
+            startActivity(Apintent)
+        }
     }
 }

@@ -5,28 +5,58 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/activityColor"
         tools:context=".MainActivity">
     <Button
             android:text="Bilgi Al"
-            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:drawableEnd="@drawable/ic_information"
+            android:paddingRight="10dp"
+            android:textAllCaps="false"
             android:id="@+id/bilgiBtn" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="144dp"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="92dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.503"/>
     <Button
-            android:layout_width="wrap_content"
+            android:text="   Problem Bildir"
+            android:textStyle="bold"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:drawableEnd="@drawable/ic_problem"
+            android:paddingRight="5dp"
+            android:textAllCaps="false"
             android:id="@+id/problemBtn" android:layout_marginTop="56dp"
             app:layout_constraintTop_toBottomOf="@+id/bilgiBtn" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            android:text="Problem Bildir"/>
+            />
     <Button
             android:text="Sahiplen"
-            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:drawableEnd="@drawable/ic_cat"
+            android:paddingRight="10dp"
+            android:textAllCaps="false"
             android:id="@+id/sahiplenmeBtn" android:layout_marginTop="56dp"
             app:layout_constraintTop_toBottomOf="@+id/problemBtn" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.0"/>
+    />
+    <Button
+            android:text="Problemler"
+            android:textStyle="bold"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:drawableEnd="@drawable/ic_sad"
+            android:paddingRight="13dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/sahiplenmeBtn" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:id="@+id/adminproblemBtn" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.033"/>
 </android.support.constraint.ConstraintLayout>

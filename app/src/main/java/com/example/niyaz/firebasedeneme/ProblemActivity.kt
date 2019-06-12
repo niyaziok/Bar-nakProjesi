@@ -1,12 +1,20 @@
 package com.example.niyaz.firebasedeneme
 
+import android.annotation.SuppressLint
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.location.Location
+import android.location.LocationListener
+import android.location.LocationManager
 import android.net.Uri
 import android.os.AsyncTask
+import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
+import android.provider.Settings
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.*
@@ -25,7 +33,16 @@ import java.io.ByteArrayOutputStream
 import java.text.DateFormat
 import java.util.*
 
+private const val PERMISSION_REQUEST = 10
+
 class ProblemActivity : AppCompatActivity() {
+    //location
+    lateinit var locationManager: LocationManager
+    private var hasGps = false
+    private var hasNetwork = false
+    private var locationGps: Location? = null
+    private var locationNetwork: Location? = null
+    private var permissions = arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.ACCESS_COARSE_LOCATION)
 
     private var problemfotografiBtn: ImageButton? = null
     private var imageBitmap: Bitmap? = null
@@ -34,6 +51,8 @@ class ProblemActivity : AppCompatActivity() {
     private var problemTxt: EditText? = null
 
     var photoUrl: String? = null
+    var konumlat: Double? = null
+    var konumlong: Double? = null
     var veritabaninagonder = ProblemBilgileri()
     var problemId: String? = "P1"
 
@@ -87,7 +106,7 @@ class ProblemActivity : AppCompatActivity() {
         val file = result
 
         val storageReference = FirebaseStorage.getInstance().getReference()
-        .child("Fotograflar/Kullanıcı Problem : "+ problemId)
+        .child("Problem Fotografları/Kullanıcı Problem : "+ problemId)
 
         val uploadPhoto = storageReference.putBytes(file!!)
 
@@ -127,8 +146,8 @@ class ProblemActivity : AppCompatActivity() {
 
             })
 
-        var intent=Intent(this,MainActivity::class.java)
-        startActivity(intent)
+        val Fintent=Intent(this,MainActivity::class.java)
+        startActivity(Fintent)
         finish()
 
     }
@@ -136,22 +155,37 @@ class ProblemActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_problem)
+        disableView()
 
         problemfotografiBtn = findViewById(R.id.problemfotoBtn)
         problemResmi = findViewById(R.id.problemResmi)
         problembildirBtn = findViewById(R.id.problembildirBtn)
         problemTxt = findViewById(R.id.problemTxt)
 
-        val sorgu =  FirebaseDatabase.getInstance().reference.child("Problemler")
-        sorgu.addListenerForSingleValueEvent(object: ValueEventListener {
+
+
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkPermission(permissions)) {
+                enableView()
+            } else {
+                requestPermissions(permissions, PERMISSION_REQUEST)
+            }
+        } else {
+            enableView()
+        }
+
+
+        val check =  FirebaseDatabase.getInstance().reference.child("Problemler")
+        check.addListenerForSingleValueEvent(object: ValueEventListener {
             override fun onDataChange(p0: DataSnapshot) {
 
                 if (p0.hasChildren()){
                     val problemNumber = p0.childrenCount + 1
-                    problemId = "P" + FirebaseAuth.getInstance().currentUser?.uid +"_"+problemNumber.toString()
+                    problemId = "Prb_" + FirebaseAuth.getInstance().currentUser?.uid?.take(8) +"_"+problemNumber.toString()
                     Log.d("Problem","ProblemId: " + problemNumber)
                 }else{
-                    problemId = "P" + FirebaseAuth.getInstance().currentUser?.uid + "_1"
+                    problemId = "Prb_" + FirebaseAuth.getInstance().currentUser?.uid?.take(8) + "_1"
                 }
             }
 
@@ -162,10 +196,117 @@ class ProblemActivity : AppCompatActivity() {
         })
 
         problemfotografiBtn!!.setOnClickListener { takeproblemPicture() }
-        problembildirBtn!!.setOnClickListener { sendtoDatabase()}
+        problembildirBtn!!.setOnClickListener {sendtoDatabase()}
+
 
 
     }
+
+    private fun enableView() {
+        problembildirBtn?.isEnabled = true
+        problembildirBtn?.alpha = 1F
+
+        Toast.makeText(this, "İzin Verildi", Toast.LENGTH_SHORT).show()
+
+    }
+
+
+    private fun disableView() {
+        problembildirBtn?.isEnabled = false
+        problembildirBtn?.alpha = 0.5F
+
+    }
+    @SuppressLint("MissingPermission")
+
+    private fun getLocation() {
+
+        locationManager = getSystemService(Context.LOCATION_SERVICE) as LocationManager
+        hasGps = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
+        hasNetwork = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)
+        if (hasGps || hasNetwork) {
+
+            if (hasGps) {
+
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 5000, 0F, object :
+                    LocationListener {
+                    override fun onLocationChanged(location: Location?) {
+                        if (location != null) {
+                            locationGps = location
+
+                        }
+                    }
+
+                    override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {
+
+                    }
+
+                    override fun onProviderEnabled(provider: String?) {
+
+                    }
+
+                    override fun onProviderDisabled(provider: String?) {
+
+                    }
+
+                })
+
+                val localGpsLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
+                if (localGpsLocation != null)
+                    locationGps = localGpsLocation
+            }
+            if (hasNetwork) {
+
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 5000, 0F, object :
+                    LocationListener {
+                    override fun onLocationChanged(location: Location?) {
+                        if (location != null) {
+                            locationNetwork = location
+
+                        }
+                    }
+
+                    override fun onStatusChanged(provider: String?, status: Int, extras: Bundle?) {
+
+                    }
+
+                    override fun onProviderEnabled(provider: String?) {
+
+                    }
+
+                    override fun onProviderDisabled(provider: String?) {
+
+                    }
+
+                })
+
+                val localNetworkLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER)
+                if (localNetworkLocation != null)
+                    locationNetwork = localNetworkLocation
+            }
+
+            if(locationGps!= null && locationNetwork!= null){
+
+                if(locationGps!!.accuracy > locationNetwork!!.accuracy){
+
+                    konumlat = locationGps!!.latitude
+                    konumlong = locationGps!!.longitude
+
+
+                }else{
+
+                    konumlat = locationNetwork!!.latitude
+                    konumlong = locationNetwork!!.longitude
+
+                }
+            }
+
+        } else {
+            startActivity(Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS))
+        }
+
+
+    }
+
 
 
     private fun takeproblemPicture() {
@@ -175,9 +316,9 @@ class ProblemActivity : AppCompatActivity() {
         }
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
-            val extras = data.extras
+            val extras = data?.extras
             imageBitmap = extras!!.get("data") as Bitmap
             problemResmi!!.setImageBitmap(imageBitmap)
         }
@@ -189,6 +330,7 @@ class ProblemActivity : AppCompatActivity() {
 
         if (imageBitmap != null && problemTxt!!.text.isNotEmpty()){
 
+            getLocation()
             val calendar = Calendar.getInstance()
             val realdate = DateFormat.getDateTimeInstance().format(calendar.time)
 
@@ -196,6 +338,8 @@ class ProblemActivity : AppCompatActivity() {
             veritabaninagonder.kullanici_id = FirebaseAuth.getInstance().currentUser?.uid
             veritabaninagonder.problem = problemTxt?.text.toString()
             veritabaninagonder.sorun_resmi = "url"
+            veritabaninagonder.konum_long = konumlong
+            veritabaninagonder.konum_lat = konumlat
             veritabaninagonder.zaman = realdate
 
 
@@ -231,5 +375,35 @@ class ProblemActivity : AppCompatActivity() {
     companion object {
             internal val REQUEST_IMAGE_CAPTURE = 1
         }
+
+    private fun checkPermission(permissionArray: Array<String>): Boolean {
+        var allSuccess = true
+        for (i in permissionArray.indices) {
+            if (checkCallingOrSelfPermission(permissionArray[i]) == PackageManager.PERMISSION_DENIED)
+                allSuccess = false
+        }
+        return allSuccess
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == PERMISSION_REQUEST) {
+            var allSuccess = true
+            for (i in permissions.indices) {
+                if (grantResults[i] == PackageManager.PERMISSION_DENIED) {
+                    allSuccess = false
+                    val requestAgain = Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && shouldShowRequestPermissionRationale(permissions[i])
+                    if (requestAgain) {
+                        Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT).show()
+                    } else {
+                        Toast.makeText(this, "Go to settings and enable the permission", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+            if (allSuccess)
+                enableView()
+
+        }
+    }
 
 }
